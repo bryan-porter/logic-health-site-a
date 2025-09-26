@@ -93,7 +93,7 @@ const WhatWeDo = () => {
       rotate: 0,
       transition: {
         duration: 0.8,
-        ease: 'easeOut',
+        ease: [0.25, 0.46, 0.45, 0.94] as any,
       },
     },
   };
@@ -108,7 +108,7 @@ const WhatWeDo = () => {
       x: 0,
       transition: {
         duration: 0.8,
-        ease: 'easeOut',
+        ease: [0.25, 0.46, 0.45, 0.94] as any,
       },
     },
   };
@@ -124,7 +124,7 @@ const WhatWeDo = () => {
       transition: {
         duration: 1,
         delay: 0.5,
-        ease: 'easeOut',
+        ease: [0.25, 0.46, 0.45, 0.94] as any,
       },
     },
   };
